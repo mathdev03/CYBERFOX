@@ -1,0 +1,145 @@
+@import url("menu.css");
+@import url("registro.css");
+@import url("registro_user.css");
+@import url("config_user.css");
+@import url("alterar.css");
+@import url("excluir.css");
+@import url("loja.css");
+@import url("pag_jogo.css");
+
+@font-face {
+    font-family: myFont;
+    src: url(../Fonte/Zebulon.ttf);
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    background-image: url('../img/Fundo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    font-family: myFont;
+    font-optical-sizing: auto;
+    font-size: small;
+    color: white;
+    overflow: hidden;
+}
+
+form{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    gap: 1px;
+    padding: 30px 35px;
+    background: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(50px);
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+/* PÁGINA HOME */
+
+.main {
+    background-color: rgba(0, 0, 0, 0.50);
+    width: 100vw;
+    height: 100vh;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.tela-logo{
+    width: 500px;
+    margin-bottom: 40px;
+    /* border-radius:50%; */
+}
+
+.videod{
+    position: absolute;
+    z-index: -1;
+    top:  50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.TelaL {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.TelaL h1{
+    font-size: 2vw;
+    letter-spacing: 3px;
+    transform: translate(0%, -150%);
+}
+
+.TelaL .subtitulo {
+    font-size: 2vw;
+    letter-spacing: 5px;
+}
+
+.TelaR {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.index-produto{
+    padding: 19px 70px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0.30);
+    box-shadow: rgb(0 0 0 / 20%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 500;
+    transition: all 0.5s ease;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+
+.index-produto:hover{
+    letter-spacing: 3px;
+    background-color: #00204a;
+    color: hsl(0, 0%, 100%);
+    box-shadow: #002960 0px 7px 29px 0px;
+}
+
+.index-produto:active{
+    letter-spacing: 3px;
+    background-color: #0070f3;
+    color: hsl(0, 0%, 100%);
+    box-shadow: #3A93FF 0px 7px 29px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+}
+
+/* PÁGINA HOME */
+
+/* PÁGINA DO PRODUTO */
+
+.fundo .TelaL {
+    color: red;
+}
+
+/* PÁGINA DO PRODUTO */

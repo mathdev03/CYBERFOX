@@ -1,0 +1,70 @@
+.form_alterar{
+    width: 33vw;
+}
+
+.form_alterar h1{
+    font-size: 3em;
+}
+
+.opcao_alternar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.opcao_alternar a{
+    margin-right: 15px;
+    padding: 19px 70px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0.30);
+    box-shadow: rgb(0 0 0 / 20%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 500;
+    transition: all 0.5s ease;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+
+.opcao_alternar a:hover,
+.voltar_alteruser:hover{
+    letter-spacing: 3px;
+    background-color: #00204a;
+    color: hsl(0, 0%, 100%);
+    box-shadow: #002960 0px 7px 29px 0px;
+}
+
+.opcao_alternar a:active
+.voltar_alteruser:active{
+    letter-spacing: 3px;
+    background-color: #0070f3;
+    color: hsl(0, 0%, 100%);
+    box-shadow: #3A93FF 0px 7px 29px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+}
+
+/* Alterar Pefil */
+
+.voltar_alteruser{
+    padding: 15px 30px;
+    margin-right: auto;
+    margin-bottom: 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0.30);
+    box-shadow: rgb(0 0 0 / 20%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 500;
+    transition: all 0.5s ease;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
